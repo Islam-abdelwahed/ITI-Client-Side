@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    background-image: url('../assets/1-support-team.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.overlay {
+    width: 100%;
+    padding-top: 120px;
+}
+
+.main-box {
+    width: 70%;
+    background-color: rgba(100, 181, 246, 0.95);
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    color: #212529;
+}
+
+.main-box h2 {
+    margin-top: 0;
+}
+
+
+.card {
+    width: 260px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px 40px 80px 40px;
+}
+
+.card h4 {
+    margin: 0;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.card p {
+    font-weight: bold;
+    color: #212529;
+    margin-top: 8px;
+}
+
+
+.card {
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+footer {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    background-color: #007bff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

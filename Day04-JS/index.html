@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        var num1 = 10;
+        var num2 = 22;
+        var num3 = null;
+
+        console.log((num1 + num2).toFixed(6));
+        console.log(num1 + num3);
+
+        var x;
+
+        var res = num1 * x;
+
+    </script>
+    <script src="./scripts/script.js"></script>
+
+    <script>
+        let repeat;
+        do {
+            let val1, val2;
+
+            do {
+                do {
+                    val1 = prompt("Enter value 1:");
+
+                    if (val1 === null) break;
+                    if (val1 === "") alert("You must enter a value!");
+                } while (val1 === "");
+
+                if (val1 === null) break;
+                do {
+                    val2 = prompt("Enter value 2:");
+
+                    if (val2 === null) break;
+                    if (val2 === "") alert("You must enter a value!");
+                } while (val2 === "");
+
+                if (val2 === null) break;
+
+                console.log(val1 + val2)
+                console.log(Number(val1) + Number(val2))
+
+            } while (0);
+
+
+            
+            ///////////////////////////////task 2///////////////////////////////
+            for (let i = 0; i < 5; i++) {
+                let val;
+
+                do {
+                    val = prompt("Enter value " + (i + 1));
+
+                    if (val === null) break;
+                    if (val === "") alert("You must enter a value!");
+                } while (val === "");
+                if (val === null) break;
+                if (!isNaN(val))
+                    console.log(Number(val).toFixed(5));
+            }
+            repeat = confirm("Do you want to run the program again?");
+
+        } while (repeat);
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+body {
+    background-image: url('./assets/bgshop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: tahoma;
+}
+
+/* Product Center Box */
+.product-box {
+    width: 500px; /* Slightly wider for better content fit */
+    background-color: #add8e6; /* Solid light blue for eye comfort */
+    margin: 100px auto; /* Increased top margin for better centering */
+    padding: 30px; /* More padding for spacious feel */
+    text-align: center;
+    border: 2px solid #4682b4; /* Solid border for definition and attractiveness */
+}
+
+.product-box ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.product-box ul li {
+    display: block;
+    margin-bottom: 20px; /* Spacing between elements for readability */
+}
+
+.product-box p {
+    font-size: 16px;
+    line-height: 1.6; /* Improved line height for eye comfort */
+    color: #333333; /* Darker text for better contrast */
+    margin: 10px 0;
+}
+
+.product-box img {
+    border: 1px solid #cccccc; /* Light border around images for polish */
+    padding: 5px; /* Padding inside border for frame effect */
+    background-color: #ffffff; /* White background for image pop */
+}
