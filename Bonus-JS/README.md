@@ -1,4 +1,4 @@
-# Bouns: JavaScript Interactive Mini-Apps
+# Bonus: JavaScript Interactive Mini-Apps
 
 ## Lab Objectives
 This lab focuses on building small, interactive client-side applications using vanilla JavaScript, demonstrating core concepts such as DOM manipulation, event handling, timers, and dynamic content generation.

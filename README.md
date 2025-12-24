@@ -9,64 +9,72 @@
 ## Overview
 This repository contains all laboratory exercises completed during the **Client-Side Technologies** course as part of my ITI scholarship. The course focuses on building interactive, responsive web applications using only **pure HTML5, CSS3, and Vanilla JavaScript** — no frameworks or libraries.
 
-The labs progressively develop front-end skills from basic page structure and styling to advanced DOM manipulation, event handling, timers, dynamic content generation, and finally a complete multi-page e-commerce application with cart and wishlist functionality using `localStorage`.
+The labs follow the official course structure from Day 01 to Day 08, with an additional **Bonus-JS** task. The final project is a full e-commerce website developed progressively starting from Lab 3 (CSS) and enhanced throughout the JavaScript labs.
 
-There are **9 labs** in total, each building on the previous ones.
-
-## Repository Structure
+## Updated Repository Structure
 ```
 Client-Side-Technologies/
-├── Lab-01-02/                  # Early JS: windows, timers, forms, login validation, basic array ops
-├── Lab-05/                     # Array & string manipulation (distinct, sort, filter, eval, capitalization)
-├── Lab-07/                     # Advanced DOM: selection, modification, slideshow, dropdown info, dynamic tables
-├── Lab-08-Ecommerce/           # Full e-commerce site: product grid, cart, favorites, localStorage persistence
-├── Lab-09-MiniApps/            # Interactive apps: To-Do list, Stopwatch, Random array generator
+├── Day-01-HTML/                # Lab 1: Basic HTML Elements
+├── Day-02-HTML/                # Lab 2: HTML Tables and Forms
+├── Day-03-CSS/                 # Lab 3: Introduction to CSS - E-Commerce Site Project (initial styling)
+├── Day-04-JS/                  # Lab 4: Introduction to JavaScript
+├── Day-05-JS/                  # Lab 5: JavaScript Array & String Operations
+├── Day-06-JS/                  # Lab 6: Windows, Timers, Forms, Login Validation, Student Arrays
+├── Day-07-JS/                  # Lab 7: Advanced DOM Manipulation, Events, Slideshow, Dynamic Tables
+├── Day-08-JS/                  # Lab 8: Full E-Commerce Site - Cart & Favorites with localStorage
+├── Bonus-JS/                   # Lab 9 (Bonus): Interactive Mini-Apps (To-Do, Stopwatch, Random Array)
 └── README.md                   # This file
 ```
 
-Each lab folder contains:
+Each day/lab folder contains:
 - HTML, CSS, and JavaScript files
 - Assets (images, icons, backgrounds)
-- A dedicated `README.md` with objectives, key features, code highlights, and screenshots/behavior descriptions
+- A dedicated `README.md` with objectives, key features, code highlights, and behavior descriptions
 
 ## Key Labs & Skills Demonstrated
 
-| Lab       | Main Topics Covered                                                                 |
-|-----------|-------------------------------------------------------------------------------------|
-| Lab 1–2   | Pop-up windows, timers (`setInterval`), forms & URL params, basic login validation, student array processing |
-| Lab 5     | Array operations (remove duplicates, sort, filter, sum/product with `eval`), string capitalization, longest word |
-| Lab 7     | DOM selection (`querySelector`, collections), event listeners, slideshow, dynamic content, searchable/sortable tables |
-| Lab 8     | Multi-page responsive e-commerce site, modular ES6 scripts, cart & favorites with `localStorage`, quantity controls, total calculation |
-| Lab 9     | Mini interactive apps: To-Do list (add/mark complete), Stopwatch (start/pause/stop/reset), Random array generator |
+| Day / Lab | Title                                      | Main Topics Covered                                                                 |
+|-----------|--------------------------------------------|-------------------------------------------------------------------------------------|
+| Day 01    | Lab 1: Basic HTML Elements                 | Semantic HTML5, headings, paragraphs, lists, links, images                          |
+| Day 02    | Lab 2: HTML Tables and Forms               | Complex tables, form elements, input types, validation attributes                   |
+| Day 03    | Lab 3: Introduction to CSS                 | CSS selectors, box model, Flexbox, responsive layout – initial e-commerce styling   |
+| Day 04    | Lab 4: Introduction to JavaScript          | Basic JS syntax, variables, functions, early DOM interaction                        |
+| Day 05    | Lab 5: Array & String Operations           | Array manipulation (distinct, sort, filter, eval), string processing                |
+| Day 06    | Lab 6: Windows, Timers, Forms              | Popup windows, setInterval, form submission, URL params, login validation          |
+| Day 07    | Lab 7: Advanced DOM & Events               | DOM selection/modification, event listeners, slideshow, dynamic tables, search/sort |
+| Day 08    | Lab 8: E-Commerce with Cart & Favorites    | Multi-page site, modular ES6, cart/wishlist with localStorage, quantity & total     |
+| Bonus     | Lab 9 (Bonus): Mini Interactive Apps       | To-Do list, Stopwatch, Random array generator                                       |
 
-## Technologies Used
-- **HTML5** – Semantic structure and forms
-- **CSS3** – Flexbox layouts, responsive design, custom styling, hover effects
-- **Vanilla JavaScript (ES6+)** – DOM manipulation, events, timers, dynamic rendering, `localStorage`, modules
-- No external libraries or frameworks
-
-## How to Run
-All labs are fully client-side and require **no server**.
-
-1. Clone or download the repository
-2. Navigate to any lab folder
-3. Open the main HTML file (e.g., `list.html` for Lab 8, `todo.html` for Lab 9) in any modern browser
-4. Interact directly — all functionality works immediately
-
-## Final Project (Lab 8)
-A complete **static e-commerce website** featuring:
-- Responsive product grid with hover effects
-- Add to Cart & Add to Favorites buttons
-- Persistent shopping cart with quantity controls, removal, and real-time total
-- Persistent wishlist with clear all functionality
-- Shared navigation header and footer across pages
-- Clean, modern UI with custom backgrounds and card designs
+## Final Project (Day 08 - Lab 8)
+A complete **responsive e-commerce website** built progressively:
+- Started with pure HTML structure (Day 01–02)
+- Styled professionally with CSS (Day 03)
+- Enhanced with full client-side interactivity using Vanilla JS (Day 04–08)
+Features include:
+- Product grid with hover effects
+- Add to Cart & Favorites
+- Persistent cart (quantity controls, remove, real-time total)
+- Persistent wishlist
+- Shared navigation and footer
 - WhatsApp ordering integration
 
-## Portfolio Note
-This repository is part of my growing ITI scholarship portfolio.  
+## Technologies Used
+- **HTML5** – Semantic markup and forms
+- **CSS3** – Flexbox, custom styling, responsive design
+- **Vanilla JavaScript (ES6+)** – DOM, events, timers, localStorage, modules
+- No external libraries
 
-Mastering the core of front-end web development from the ground up! 🌐✨
+## How to Run
+All labs are fully client-side — no server needed.
+
+1. Clone or download the repository
+2. Open any day's main HTML file in a modern browser
+3. For the full project, start with [`Day-08-JS/list.html`](./Day-08-JS/)
+
+## Portfolio Note
+This repository is part of my growing ITI scholarship portfolio.
+
+Mastering front-end fundamentals from scratch! 🌐✨
 
 Completed on December 24, 2025.  
 Happy coding! 🚀
